@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { useAuth } from '../contexts/AuthContext'
-import { FiTrendingUp, FiDollarSign, FiActivity, FiArrowRight, FiWallet, FiShield } from 'react-icons/fi'
+import { FiTrendingUp, FiDollarSign, FiActivity, FiArrowRight, FiCreditCard, FiLock } from 'react-icons/fi'
 
 const Dashboard = () => {
   const { user, isAuthenticated } = useAuth()
@@ -71,7 +71,7 @@ const Dashboard = () => {
   const getIcon = (iconName: 'wallet' | 'dollar' | 'activity' | 'trending') => {
     switch (iconName) {
       case 'wallet':
-        return <FiWallet />
+        return <FiCreditCard />
       case 'dollar':
         return <FiDollarSign />
       case 'activity':
@@ -158,7 +158,7 @@ const Dashboard = () => {
             </div>
 
             <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 cursor-pointer">
-              <FiWallet className="text-4xl mb-4" />
+              <FiCreditCard className="text-4xl mb-4" />
               <h3 className="text-xl font-semibold mb-2">Deposit Assets</h3>
               <p className="text-purple-100">Tokenize your physical gold or silver</p>
             </div>
@@ -235,7 +235,7 @@ const Dashboard = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-secondary-700 to-secondary-600 text-white p-8 rounded-lg">
             <div className="flex items-start">
-              <FiShield className="text-4xl mr-4 flex-shrink-0" />
+              <FiLock className="text-4xl mr-4 flex-shrink-0" />
               <div>
                 <h3 className="text-2xl font-semibold mb-2">Your Assets Are Secure</h3>
                 <p className="text-gray-200 mb-4">

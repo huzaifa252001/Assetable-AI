@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiUser, FiBuilding, FiCheckCircle, FiTrendingUp, FiShield, FiDollarSign, FiUsers, FiActivity } from 'react-icons/fi'
+import { FiUser, FiHome, FiCheckCircle, FiTrendingUp, FiLock, FiDollarSign, FiUsers, FiActivity } from 'react-icons/fi'
 
 const UseCases = () => {
   return (
@@ -9,7 +9,7 @@ const UseCases = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Use Cases</h1>
           <p className="text-xl md:text-2xl max-w-3xl">
-            The AI-Powered Asset Tokenization Platform enables diverse user segments to leverage 
+            The AI-Powered Asset Tokenization Platform enables diverse user segments to leverage
             real assets for secured lending and portfolio diversification.
           </p>
         </div>
@@ -104,7 +104,7 @@ const UseCases = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <FiBuilding className="text-6xl text-primary-600 mx-auto mb-4" />
+            <FiHome className="text-6xl text-primary-600 mx-auto mb-4" />
             <h2 className="text-4xl font-bold mb-4 text-gray-900">Bank Partners</h2>
             <p className="text-xl text-gray-700 max-w-2xl mx-auto">
               Expand lending capabilities with tokenized collateral infrastructure
@@ -149,7 +149,7 @@ const UseCases = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <FiShield className="text-4xl text-primary-600 mb-4" />
+              <FiLock className="text-4xl text-primary-600 mb-4" />
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Dual Product Rails</h3>
               <p className="text-gray-700 mb-4">
                 Offer both Shariah-compliant and conventional products
@@ -211,7 +211,7 @@ const UseCases = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-gray-900">Pakistan Market Opportunity</h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Pakistan presents a significant market opportunity due to its strategic shift towards 
+              Pakistan presents a significant market opportunity due to its strategic shift towards
               Shariah-compliant banking.
             </p>
           </div>
@@ -220,8 +220,8 @@ const UseCases = () => {
             <div className="bg-primary-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Strategic Shariah Conversion</h3>
               <p className="text-gray-700 mb-4">
-                Creating strong demand for financial solutions that are inherently Shariah-compatible, 
-                auditable, and asset-backed. Our platform serves as foundational infrastructure for 
+                Creating strong demand for financial solutions that are inherently Shariah-compatible,
+                auditable, and asset-backed. Our platform serves as foundational infrastructure for
                 banks in Pakistan.
               </p>
             </div>
@@ -229,7 +229,7 @@ const UseCases = () => {
             <div className="bg-primary-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Dual-Rail Advantage</h3>
               <p className="text-gray-700 mb-4">
-                Parallel product rails offering both Shariah-compliant and conventional loan structure, 
+                Parallel product rails offering both Shariah-compliant and conventional loan structure,
                 maximizing market reach and facilitating compliance with evolving regulatory landscapes.
               </p>
             </div>
@@ -237,7 +237,7 @@ const UseCases = () => {
             <div className="bg-primary-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Local Vault Partnerships</h3>
               <p className="text-gray-700 mb-4">
-                Partnership with Bank owned local vaults within the region, ensuring convenient 
+                Partnership with Bank owned local vaults within the region, ensuring convenient
                 redemption and custody in users' native jurisdictions.
               </p>
             </div>
@@ -245,8 +245,8 @@ const UseCases = () => {
             <div className="bg-primary-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Market Impact</h3>
               <p className="text-gray-700 mb-4">
-                Positioning the platform as the primary infrastructure for bank modernization, 
-                enabling institutions to innovate and diversify their product offerings in a rapidly 
+                Positioning the platform as the primary infrastructure for bank modernization,
+                enabling institutions to innovate and diversify their product offerings in a rapidly
                 changing global financial environment.
               </p>
             </div>
